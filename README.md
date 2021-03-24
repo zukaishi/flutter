@@ -34,6 +34,13 @@ https://flutter.dev/docs/get-started/install/macos
 - brew install cocoapods
 - pod setup
 
+- https://developer.android.com/studio からインストール
+- (1)Android Studioを開く
+- (2)ヘッダー部分の『Android Studio』をクリック
+- (3)preferenceをクリック
+- (4)Pluginsをクリック
+- (5)検索画面でflutterを検索、ダウンロード
+
 -  flutter doctor
 ```
 Doctor summary (to see all details, run flutter doctor -v):
