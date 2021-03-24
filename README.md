@@ -60,3 +60,17 @@ Doctor summary (to see all details, run flutter doctor -v):
 [✓] Connected device (1 available)
 ```
 
+- Android Studioセットアップを実行インストール
+```
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/macos#android-setup for more details.
+[✓] Xcode - develop for iOS and macOS
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 4.1)
+[✓] VS Code (version 1.54.2)
+[✓] Connected device (1 available)
+
+! Doctor found issues in 1 category.
+```
