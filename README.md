@@ -83,6 +83,7 @@ Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation.
 ```
 - export JAVA_HOME=`/usr/libexec/java_home -v 14.0.2`
+- or export JAVA_HOME=$(/usr/libexec/java_home -v 14.0.2)
 - flutter doctor --android-licenses
 ```
 Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
