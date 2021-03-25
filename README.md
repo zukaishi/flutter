@@ -74,3 +74,25 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 ! Doctor found issues in 1 category.
 ```
+
+- flutter doctor --android-licenses
+```
+ERROR: JAVA_HOME is set to an invalid directory: /usr/libexec/java_home -v 1.8
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+```
+- export JAVA_HOME=`/usr/libexec/java_home -v 14.0.2`
+```
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:73)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 5 more
+```
