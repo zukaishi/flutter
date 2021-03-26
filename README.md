@@ -98,3 +98,8 @@ Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 5 more
 ```
+- brew cask info java
+```
+Error: Unknown command: cask
+```
+- brew install cask
